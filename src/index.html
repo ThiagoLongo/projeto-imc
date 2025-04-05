@@ -10,9 +10,11 @@
 <body>
   <div class="container">
     <h2>Simulador de IMC</h2>
-    <input id="peso" placeholder="Peso (kg)">
-    <input id="altura" placeholder="Altura (m)">
-    <button onclick=>Calcular IMC</button>
+    <input type="number" id="peso" placeholder="Peso (kg)">
+    <input type="number" id="altura" placeholder="Altura (m)">
+    <button onclick="calcularIMC()">Calcular IMC</button>
+    <div class="resultado" id="resultado"></div>
+
   </div>
 
   <script src="script.js"></script>
